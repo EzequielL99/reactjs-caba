@@ -1,4 +1,8 @@
-import AlertButton from "./components/AlertButton";
+// import AlertButton from "./components/AlertButton";
+
+import HeroesList from "./components/HeroesList";
+
+const heroes = ['Spiderman', 'Iron Man', 'Thor', 'Hulk'];
 
 function App() {
   return (
@@ -12,6 +16,9 @@ function App() {
       <main className="vh-100 container d-flex justify-content-center align-items-center">
         {/** Ejercicio 1 */}
         {/* <AlertButton nombre='Ezequiel' /> */}
+
+        {/** Ejercicio 2 */}
+        <HeroesList heroes={heroes} />
       </main>
     </>
   );
