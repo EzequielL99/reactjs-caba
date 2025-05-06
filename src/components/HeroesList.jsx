@@ -1,7 +1,7 @@
 export default function HeroesList({ heroes }) {
   console.log(heroes);
   return (
-    <ol className="flex flex-column gap-3 justify-content-between text-white list-unstyled ">
+    <ol className="flex flex-column gap-3 justify-content-between list-unstyled ">
       {heroes.map((heroe, index) => (
         <li
           key={index}
